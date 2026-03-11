@@ -11,15 +11,11 @@ The goal is to generate **data-driven insights that could help streaming platfor
 
 ## Project Highlights
 
-• Analyzed **500 anime titles** to identify patterns in ratings, popularity, and engagement.
-
-• Built a **complete data analytics workflow** including data cleaning, exploratory analysis, feature engineering, and visualization.
-
-• Created a **custom Success Score metric** combining ratings, popularity, and fan engagement.
-
-• Developed a **Power BI dashboard** to visualize industry insights interactively.
-
-• Generated insights that could support **content strategy decisions for streaming platforms.**
+- Analyzed **500 anime titles** to identify patterns in ratings, popularity, and engagement.
+- Built a **complete data analytics workflow** including data cleaning, exploratory analysis, feature engineering, and visualization.
+- Created a **custom Success Score metric** combining ratings, popularity, and fan engagement.
+- Developed a **Power BI dashboard** to visualize industry insights interactively.
+- Generated insights that could support **content strategy decisions for streaming platforms.**
 
 ## Dashboard & Visual Insights
 
@@ -55,15 +51,11 @@ Streaming platforms must continuously decide which anime content to acquire, pro
 
 This project explores several key questions:
 
-• Which genres produce the highest rated anime?
-
-• Do longer anime series perform better than shorter seasonal anime?
-
-• Which studios consistently produce highly rated anime?
-
-• Are the most popular anime also the highest rated?
-
-• What characteristics define a highly successful anime title?
+- Which genres produce the highest rated anime?
+- Do longer anime series perform better than shorter seasonal anime?
+- Which studios consistently produce highly rated anime?
+- Are the most popular anime also the highest rated?
+- What characteristics define a highly successful anime title?
 
 By analyzing historical data, the project identifies patterns that may help guide **content strategy and investment decisions.**
 
@@ -73,21 +65,14 @@ The dataset contains **500 anime titles** along with metadata and audience engag
 
 ### Key Features
 
-• **Title** – Name of the anime
-
-• **Score** – Average audience rating
-
-• **Episodes** – Number of episodes in the series
-
-• **Genres** – Genre categories associated with the anime
-
-• **Studios** – Production studios
-
-• **Members** – Number of users interested in the anime
-
-• **Favorites** – Number of users who marked the anime as a favorite
-
-• **Year** – Release year
+- **Title** – Name of the anime
+- **Score** – Average audience rating
+- **Episodes** – Number of episodes in the series
+- **Genres** – Genre categories associated with the anime
+- **Studios** – Production studios
+- **Members** – Number of users interested in the anime
+- **Favorites** – Number of users who marked the anime as a favorite
+- **Year** – Release year
 
 These variables allow analysis of both **content characteristics and audience behavior.**
 
@@ -95,13 +80,10 @@ These variables allow analysis of both **content characteristics and audience be
 
 This project demonstrates several tools commonly used in data analyst roles.
 
-**Programming & Data Analysis** - Python, Pandas, NumPy
-
-**Data Visualization** - Matplotlib, Seaborn
-
-**Business Intelligence** - Power BI
-
-**Development Environment** - Jupyter Notebook, VS Code, GitHub
+- **Programming & Data Analysis** - Python, Pandas, NumPy
+- **Data Visualization** - Matplotlib, Seaborn
+- **Business Intelligence** - Power BI
+- **Development Environment** - Jupyter Notebook, VS Code, GitHub
 
 ## Project Workflow
 
@@ -111,13 +93,10 @@ The raw dataset contained missing values and inconsistent formats.
 
 Data preparation steps included:
 
-• Handling missing values
-
-• Removing duplicate records
-
-• Converting columns to appropriate data types
-
-• Splitting multi-value categorical fields such as genres and studios
+- Handling missing values
+- Removing duplicate records
+- Converting columns to appropriate data types
+- Splitting multi-value categorical fields such as genres and studios
 
 A cleaned dataset was created to enable accurate analysis.
 
@@ -127,23 +106,23 @@ Several analyses were performed to answer the business questions.
 
 #### Genre Performance Analysis
 
-Evaluated which anime genres receive the highest average ratings.
+- Evaluated which anime genres receive the highest average ratings.
 
 #### Episode Length Analysis
 
-Investigated whether anime with more episodes perform better than shorter series.
+- Investigated whether anime with more episodes perform better than shorter series.
 
 #### Studio Performance Analysis
 
-Identified studios that consistently produce highly rated anime.
+- Identified studios that consistently produce highly rated anime.
 
 #### Popularity vs Rating Analysis
 
-Compared audience popularity with quality ratings to identify hidden gems and mass-market hits.
+- Compared audience popularity with quality ratings to identify hidden gems and mass-market hits.
 
 #### Industry Trend Analysis
 
-Examined how anime production volume and ratings have evolved over time.
+- Examined how anime production volume and ratings have evolved over time.
 
 ### 3. Feature Engineering
 
@@ -161,11 +140,9 @@ A composite metric was created to measure overall anime success.
 
 The score combines:
 
-• Rating quality
-
-• Popularity
-
-• Fan engagement
+- Rating quality
+- Popularity
+- Fan engagement
 
 By combining these factors, the Success Score identifies anime that perform strongly across multiple dimensions.
 
@@ -173,37 +150,32 @@ By combining these factors, the Success Score identifies anime that perform stro
 
 #### Genre Trends
 
-Genres such as **Action, Fantasy, and Psychological** tend to achieve higher average ratings.
-
-Business implication:
+- Genres such as **Action, Fantasy, and Psychological** tend to achieve higher average ratings.
+- Business implication:
 Streaming platforms may prioritize these genres to maximize audience engagement.
 
 #### Optimal Episode Length
 
-Anime with **13–24 episodes** often achieve higher ratings than extremely long series.
-
-Business implication:
+- Anime with **13–24 episodes** often achieve higher ratings than extremely long series.
+- Business implication:
 Short seasonal formats may help maintain quality while controlling production costs.
 
 #### Studio Performance
 
-Certain studios consistently produce highly rated anime.
-
-Business implication:
+- Certain studios consistently produce highly rated anime.
+- Business implication:
 Streaming platforms may benefit from partnering with proven studios to improve content quality.
 
 #### Popularity vs Quality
 
-Some anime are extremely popular despite moderate ratings, while others have excellent ratings but lower popularity.
-
-Business implication:
+- Some anime are extremely popular despite moderate ratings, while others have excellent ratings but lower popularity.
+- Business implication:
 High-rated but under-discovered anime represent opportunities for targeted promotion.
 
 #### Industry Growth
 
-Anime production has increased steadily over time, reflecting strong global demand.
-
-Business implication:
+- Anime production has increased steadily over time, reflecting strong global demand.
+- Business implication:
 Streaming platforms may continue expanding anime investment strategies.
 
 ## Power BI Dashboard
@@ -212,17 +184,12 @@ An interactive Power BI dashboard was developed to visualize key insights.
 
 #### Dashboard Features
 
-• Genre rating analysis
-
-• Studio performance comparison
-
-• Episode count vs rating visualization
-
-• Popularity vs rating scatter analysis
-
-• Industry trend visualization
-
-• Top successful anime ranking
+- Genre rating analysis
+- Studio performance comparison
+- Episode count vs rating visualization
+- Popularity vs rating scatter analysis
+- Industry trend visualization
+- Top successful anime ranking
 
 The dashboard allows stakeholders to explore anime performance metrics interactively.
 
@@ -259,19 +226,19 @@ anime-industry-analytics
 
 This project demonstrates several skills expected from data analysts:
 
-• Data Cleaning and Preparation
+- Data Cleaning and Preparation
+- Exploratory Data Analysis
+- Feature Engineering
+- Data Visualization
+- Business Insight Generation
+- Dashboard Development
+- Data Storytelling
 
-• Exploratory Data Analysis
+## Limitations
 
-• Feature Engineering
-
-• Data Visualization
-
-• Business Insight Generation
-
-• Dashboard Development
-
-• Data Storytelling
+- Dataset size is limited to 500 anime titles.
+- External factors such as marketing budget or streaming platform availability were not included.
+- Ratings are based on user reviews and may contain bias.
 
 ## Conclusion
 
